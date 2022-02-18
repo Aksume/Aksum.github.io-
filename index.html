@@ -2,23 +2,321 @@
 <html lang="en">
 
 <head>
+    <title>Zion Take Away</title>
+    <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="CSS/styles.css">
+    <script src="https://kit.fontawesome.com/332a215f17.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link href="CSS/stylesheet.css" rel="stylesheet">
-    <title>Hello, world!</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 
 <body>
-    <h1>Bootstrap-Boilerplate</h1>
+    <section>
+              <nav class="navbar navbar-expand-lg main-navbar bg-color main-navbar-color" id="main-navbar">
+            <div class="container">
+                <a class="navbar-brand" href="#">Zion-Take Away</a>
+               
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNav"
+                    aria-controls="nav" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fas fa-bars"></i></button>
+                <div class="collapse navbar-collapse" id="myNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#home" class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#variety" class="nav-link">Variety</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#takeAway" class="nav-link">Take Away</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="menu.html" class="nav-link">Menu</a>
+                        </li>
+                       
+                        <li class="nav-item">
+                            <a href="#contact" class="nav-link">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!--End of Nav-->
+    </section>
+    <!---Home Section-->
+    <section id="home">
+        <div class="home-container" style="background: rgba(0,0,0,0.2);display: table-cell;  margin: 0; padding:0;text-align: center;vertical-align: middle;">
+            <div class="home-logo" style="margin:20px ; max-width: 100%; ">
+                <h1 class="font-weight-bold" style="font-weight: bold; line-height: 48px; text-transform: uppercase; color: #fff;"  margin: 30px 0 10px 0;>Take Away</h1>
+            </div>
+            <h2 class="font-weight-bold" style="  color: #fff;margin-bottom: 50px;  font-style: italic;">Good food is the foundation of happiness.</h2>
+            <div class="actions">
+                <a href="menu.html" class="btn-get-started bg-warning" style="background: #bdce22;  border: 2px solid #7ca803; color: #fff;">Order Now</a>
+            </div>
+        </div>
+    </section>
+    <!---End of Home Section-->
 
-    <!-- Javascript: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    <!--Variety----->
+    <section id="variety" class="variety pt-4">
+        <div class="container">
+            <div class=" row justify-content-center pb-5">
+                <div class="col-md-7 heading-section text-center">
+                    <h2 class="font-weight-bold text-color glow" style=" color: #bdce22;  font-style: italic;  font-size: 40px;">
+                    Variety
+                    </h2>
+                </div>
+            </div>
+                        <div class="row">
+                <div class="col-md-6 d-flex align-items-stretch">
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="IMG/gimages/salad.jpeg" alt="">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                <a href="#"> Fruit Salad </a>
+                            </h5>
+                            <p class="card-text">
+                                Fruit Salad with your Choice of 3 fruits,juice house cream or plain yogort, 2 toppings,
+                                Whip Cream or hony
+                                Fresh Fruit: Strawberry,Pineapple,Mango,Peach, Green Apple,Papaya,Bluenerry,White
+                                Grape,Cherry and Kiwi
+                               
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!---->
+                <div class="col-md-6 d-flex align-items-stretch">
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="./IMG/gimages/meet1.jpeg" alt="">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                <a href="#">Meat Dishes</a>
+                            </h5>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                Quidem tempore quia dolorem ratione quod numquam omnis sequi
+                                voluptatum nulla quis.quia dolorem ratione quod numquam omnis sequi
+                                voluptatum nulla quis.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!---->
+                <div class="col-md-6 d-flex align-items-stretch">
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="./IMG/gimages/pasta1.jpeg" alt="">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                <a href="#">spaghetti Dishes</a>
+                            </h5>
+                            <p class="card-text">
+                                Traditional meat sauce seasoned with garlic and herbs over spaghetti. Our meat sauce is
+                                made with pan-seared beef and
+                                italian sausage.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!---->
+                <div class="col-md-6 d-flex align-items-stretch">
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="./IMG/gimages/curry2.jpeg" alt="">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                <a href="#">Curry Dishes</a>
+                            </h5>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                Quidem tempore quia dolorem ratione quod numquam omnis sequi
+                                voluptatum nulla quis.quia dolorem ratione quod numquam omnis sequi
+                                voluptatum nulla quis.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!---End of Variety-->
+
+    <!-- start Product Section   (Take Away)  -->
+
+    <section id="takeAway" class="product-section bg-img py-3">
+        <div class="container ">
+            <div class=" row justify-content-center pb-5">
+                <div class="col-md-7 heading-section text-center">
+                    <h2 class="font-weight-bold text-color glow" style= " color: #bdce22;  font-style: italic;  font-size: 40px;">
+                        Take Away
+                    </h2>
+                </div>
+            </div>
+                      <div class="row ">
+                <div class="col-md-3 d-flex ">
+                    <div class="product glow">
+                        <div class="img d-flex align-items-center justify-content-center"
+                            style="background-image:url(IMG/gimages/take-1.jpeg);">
+                        </div>
+                        <div class="text text-center">
+                           
+                            <h2 class="text-white">Out of Kitchen</h2>
+                            <span class="price">$15.00</span>
+                        </div>
+                    </div>
+                </div>
+                <!----->
+                <div class="col-md-3 d-flex">
+                    <div class="product glow">
+                        <div class="img d-flex align-items-center justify-content-center"
+                            style="background-image:url(IMG/gimages/take-6.jpg)">
+                        </div>
+                        <div class="text text-center">
+                          
+                            <h2 class="text-white" >Deal of the day</h2>
+                            <span class="price">$10.00</span>
+                        </div>
+                    </div>
+                </div>
+                <!----->
+                <div class="col-md-3 d-flex">
+                    <div class="product glow">
+                        <div class="img d-flex align-items-center justify-content-center"
+                            style="background-image:url(IMG/gimages/take-4.jpg);">
+                        </div>
+                        <div class="text text-center">
+                           
+                            <h2 class="text-white">Deal of the week</h2>
+                            <span class="price">$13.00</span>
+                        </div>
+                    </div>
+                </div>
+                <!----->
+                <div class="col-md-3 d-flex">
+                    <div class="product glow">
+                        <div class="img d-flex align-items-center justify-content-center"
+                            style="background-image:url(IMG/gimages/take-5.jpg);">
+                        </div>
+                        <div class="text text-center">
+                          
+                            <h2 class="text-white">Deal of the month</h2>
+                            <span class="price">$20.00</span>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+        <!---  Subscribe Section-->
+        <section id="subscribe" class="py-5">
+            <div class="container">
+                <div class="row align-items-center my-5">
+                    <div class="col-sm-10 mx-auto-text-center mb-5">
+                        <h4 class="display-3 mb-5 text-uppercase text-white text-center" style="font-size: 25px;font-weight: bold;">
+                            Subscribe For More Offers
+                        </h4>
+                        <form class="form-inline d-flex justify-content-center">
+                          
+                            <button class="btn form-btn m-1" style="font-size: 20px; background: #bdce22; border: 3px solid #fe9801;">Subscribe</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--- End   Subscribe Section-->
+<!-- start Footer  Section-->
+<footer ID="contact" class="bg-orange text-center text-white mx-auto" style="background-color: rgb(118, 146, 18)">
+    <div class="container">
+               <div class="row">
+            <div class="col-lg-4 col-sm-12">
+                <div class="container-fluid my-3">
+                    <form class="row g-3 needs-validation  " novalidate>
+                        <div class="col-12">
+                            <label for="validationCustom01" class="form-label">First name</label>
+                            <input type="text" class="form-control" id="validationCustom01" placeholder="First name"
+                                required>
+                           
+                        </div>
+                        <div class="col-12">
+                            <label for="validationCustom02" class="form-label">Last name</label>
+                            <input type="text" class="form-control" id="validationCustom02" placeholder="Last name"
+                                required>
+                           
+                        </div>
+                        <div class="col-12">
+                            <label for="validationCustom02" class="form-label">Email</label>
+                            <input type="text" class="form-control" id="validationCustom02" placeholder="info@example.com "
+                                required>
+                            <div class="valid-feedback">
+                                                        </div>
+                        </div>
+                                              <div class="col-12  py-3">
+                            <button class="btn btn-secondary background-color: rgb(118, 146, 18) " type="submit ">Submit form</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-12 py-4">
+                <div class="container p-2">
+                    <section class="mb-4">
+                        <h5>FOLLOW US</h5>
+                        <ul class="list-unstyled">
+                            <li><a class="btn btn-outline-light btn-floating m-1 my-3" href="https://www.facebook.com/"
+                                    role="button"><i class="fab fa-facebook-f "></i></a></li>
+                            <li><a class="btn btn-outline-light btn-floating m-1 my-3" href="https://twitter.com/"
+                                    role="button"><i class="fab fa-twitter "></i></a></li>
+                            <li><a class="btn btn-outline-light btn-floating m-1 my-3" href="https://www.instagram.com/"
+                                    role="button"><i class="fab fa-instagram "></i></a></li>
+                            <li><a class=" btn-outline-light btn-floating m-1 my-3" href="https://www.figma.com/file/ilez0tDJgZLUGyJddemgP9/FINAL-PROJECT-WIREFRAME?node-id=0%3A1"
+                                    role="button">Wirefram<i class=" "></i></a> </li>
+                        </ul>
+                    </section>
+                </div>
+            </div>
+        <div class="col-lg-4 col-sm-12 py-4">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d214874.15862566588!2d-97.27549989125134!3d32.70176514227856!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864e62d2e40898d3%3A0xb5ef6ac1fa05351!2sArlington%2C%20TX!5e0!3m2!1sen!2sus!4v1644686524152!5m2!1sen!2sus"
+                width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        </div>
+    </div>
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        ©️ 2022:
+        <a class="text-white" href="http://ttsion.com">Tsion G </a>
+    </div>
+  </footer>
+<!-- End Footer  Section-->
+
+
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
